@@ -1,0 +1,72 @@
+ 
+  
+     body{
+	font-family:arial, sans-serif;
+	background-color:#fff;
+	color:#555;
+	line-height:24px;
+	font-size:14px;}
+	
+	 div.nav{ width: 700px; 
+	          height: 150px;
+		      border: solid 1px;
+		      float: right;
+			  font-size:20px;
+			  font-family:arial;
+			  color:#555;
+	 }
+	  
+		 
+	
+	
+
+	
+	
+	 li ul { /* пункты меню*/
+    position: absolute; /* Подменю позиционируются абсолютно */
+    display: none; /* Скрываем подменю */
+    margin-left: 60px; /*отступ подменю */
+	list-style: none; /* Для списка убираем маркеры */
+	border:solid 1px #ddd;
+	background:#eee;
+	          }
+			  
+	li a {   /*ссылки в пунктах меню*/ 
+	      text-decoration:none;
+		  color: black;
+		  margin-right: 30px;
+		  
+		 }
+	   
+	   ul li.g { /*главное меню*/
+           display: inline;
+           list-style: none; /* Для списка убираем маркеры */ }          
+   
+  
+    	   
+   
+   li:hover ul {  /*пункты меню принаведении курсора */
+    display: block; /* При выделении пункта курсором мыши отображается подменю */
+	
+   } 
+	
+	 ul li.g { /*главное меню*/
+           display: inline;
+           list-style: none; /* Для списка убираем маркеры */ }                   	
+	
+    
+	        
+     
+				
+    li.g a:hover { /*ссылки в пунктах Меню при наведении курсора */  
+    color: #2684cd;  /* Цвет текста активного пункта */
+    
+   }
+   
+    li.sub a { /*ссылки в пунктах ПодМеню при загрузке */  
+                 font-size: 16px;}
+   
+    li.sub a:hover { /*ссылки в пунктах ПодМеню при наведении курсора */  
+                 background:#2684cd !important;
+	             color:#fff !important;}	  
+ 
